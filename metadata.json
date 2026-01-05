@@ -1,0 +1,7 @@
+{
+  "name": "ReBloom - Wreath & Plant Marketplace",
+  "description": "A platform connecting businesses with surplus wreaths and flower shop owners for sustainable recycling and resale.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
