@@ -35,9 +35,6 @@ const AIPlantDoctor: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div>
-            <div className="w-20 h-20 bg-lime-400 rounded-3xl flex items-center justify-center text-4xl mb-8 rotate-3 shadow-xl shadow-lime-400/20">
-              👁️‍🗨️
-            </div>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-8 leading-tight">
               식물의 <span className="text-lime-400">숨겨진 가치</span>를 <br />
               AI로 즉시 판별하세요.
@@ -46,17 +43,6 @@ const AIPlantDoctor: React.FC = () => {
               극락조의 수형이나 몬스테라의 무늬 상태를 사진 한 장으로 분석합니다. 
               시세 데이터를 바탕으로 전문 플랜트 샵에 제안할 최적의 가격을 알려드립니다.
             </p>
-            
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-green-900/50 p-6 rounded-2xl border border-green-800">
-                <p className="text-lime-400 font-black text-3xl mb-1">98%</p>
-                <p className="text-sm text-green-100/60 font-bold uppercase tracking-wider">상태 분석 정확도</p>
-              </div>
-              <div className="bg-green-900/50 p-6 rounded-2xl border border-green-800">
-                <p className="text-lime-400 font-black text-3xl mb-1">3초</p>
-                <p className="text-sm text-green-100/60 font-bold uppercase tracking-wider">평균 감정 소요 시간</p>
-              </div>
-            </div>
           </div>
 
           <div className="bg-white rounded-[48px] p-10 text-slate-900 shadow-[0_40px_80px_-15px_rgba(0,0,0,0.5)] border-[12px] border-green-900/30">
@@ -124,7 +110,6 @@ const AIPlantDoctor: React.FC = () => {
         </div>
       </div>
       
-      {/* Visual background decoration */}
       <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-lime-400/10 blur-[120px] rounded-full"></div>
     </section>
   );

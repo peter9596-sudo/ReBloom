@@ -7,9 +7,6 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center px-3 py-1 rounded-full bg-lime-100 text-green-800 text-xs font-bold mb-6 border border-lime-200">
-              PREMIUM: 극락조 & 몬스테라 전문 플랫폼
-            </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-6 tracking-tight">
               당신의 공간을 <br />
               <span className="text-green-700">초록빛 가치</span>로 <br />
@@ -41,7 +38,6 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="relative h-[550px] lg:h-[700px] w-full rounded-[40px] overflow-hidden shadow-[0_32px_64px_-16px_rgba(20,50,20,0.2)] border-[12px] border-white group">
-             {/* Spline 3D Integration - Spline 자체 배경색은 직접 변경할 수 없으나, 컨테이너 테두리와 주변을 초록색으로 강화 */}
              <iframe 
                src='https://my.spline.design/beeflyingflowerwebheroglbanimation-yi9hJMV0nec0bC8xE7E1aXzy/' 
                frameBorder='0' 
@@ -49,21 +45,11 @@ const Hero: React.FC = () => {
                height='100%'
                className="absolute inset-0 bg-green-900" 
              ></iframe>
-             
-             {/* Overlay for integration */}
              <div className="absolute inset-0 pointer-events-none bg-gradient-to-tr from-green-900/10 to-transparent"></div>
-             
-             <div className="absolute top-6 left-6 bg-green-800/90 backdrop-blur-md px-4 py-2 rounded-full shadow-lg border border-white/20">
-                <p className="text-xs font-bold text-white flex items-center gap-2">
-                  <span className="w-2 h-2 bg-lime-400 rounded-full animate-pulse"></span>
-                  Live Plant Viewer
-                </p>
-             </div>
           </div>
         </div>
       </div>
       
-      {/* Decorative Blur Backgrounds */}
       <div className="absolute top-[-10%] right-[-5%] -z-10 w-[500px] h-[500px] bg-green-200/40 blur-[120px] rounded-full"></div>
       <div className="absolute bottom-[5%] left-[-5%] -z-10 w-[400px] h-[400px] bg-lime-100/50 blur-[100px] rounded-full"></div>
     </section>

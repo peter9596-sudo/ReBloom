@@ -29,13 +29,12 @@ const Features: React.FC = () => {
     <section id="about" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-sm font-bold text-emerald-600 tracking-widest uppercase mb-4">How it works</h2>
           <h3 className="text-4xl font-bold text-slate-900">꽃의 두 번째 삶을 위한 리블룸 프로세스</h3>
         </div>
         
         <div className="grid md:grid-cols-4 gap-8">
           {steps.map((step, idx) => (
-            <div key={idx} className="p-8 rounded-3xl bg-slate-50 hover:bg-emerald-50 border border-transparent hover:border-emerald-100 transition duration-300 group">
+            <div key={idx} className="p-8 rounded-3xl bg-slate-50 hover:bg-green-50 border border-transparent hover:border-green-100 transition duration-300 group">
               <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition">
                 {step.icon}
               </div>
